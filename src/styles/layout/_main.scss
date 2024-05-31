@@ -1,0 +1,118 @@
+//Inputs
+
+.container-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 40px 0 40px;
+}
+
+.inputName {
+  height: 30px;
+  border: solid 1px $color-terciary;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 80%;
+  margin-right: 15px;
+  max-width: 300px;
+}
+
+.icon-search {
+  width: auto;
+  height: 30px;
+  animation-duration: 2s;
+  animation-name: beat;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container-checkbox {
+  margin-top: 20px;
+}
+
+.container-checkbox label {
+  margin-right: 10px;
+  margin-left: 5px;
+  border-bottom: 1px solid $color-terciary;
+  color: $color-secondary;
+}
+
+
+
+//Cards
+
+.container-image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tittle-character {
+  font-family: $typo-secondary;
+  font-size: 20px;
+}
+
+.imageCharacter {
+  width: 100%;
+}
+
+.icon-death {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon-house {
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 50px;
+}
+
+.Gryffindor {
+  background-image: url("/images/gryffindor.png");
+}
+
+.Slytherin {
+  background-image: url("/images/slytherin.png");
+}
+
+.Hufflepuff {
+  background-image: url("/images/hufflepuf.png");
+}
+
+.Ravenclaw {
+  background-image: url("/images/ravenclaw.png");
+}
+
+.container-character {
+  position: relative;
+  background-color: $color-primary;
+  padding: 18px 25px 5px 25px;
+  border-radius: 10px;
+  height: 345px;
+  margin-top: 30px;
+  max-width: 400px;
+  @media (min-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.line-height-lg {
+  line-height: 1.5;
+}

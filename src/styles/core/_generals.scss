@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: $typo-primary;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display:flex;
+}
